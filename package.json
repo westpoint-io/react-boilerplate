@@ -1,0 +1,49 @@
+{
+    "name": "react-boilerplate",
+    "version": "1.0.0",
+    "description": "Westpoint react boilerplate",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --mode development --port 3300",
+        "build": "webpack --mode production",
+        "lint": "eslint --ext .js --ext .jsx src",
+        "lint:fix": "eslint --fix --ext .js --ext .jsx src",
+        "prettier": "prettier --check \"./**/*\"",
+        "prettier:fix": "prettier --write \"./**/*\""
+    },
+    "dependencies": {
+        "antd": "4.4.3",
+        "react": "16.13.1",
+        "react-dom": "16.13.1",
+        "react-router-dom": "^5.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "7.10.5",
+        "@babel/preset-env": "7.10.4",
+        "@babel/preset-react": "7.10.4",
+        "babel-loader": "8.1.0",
+        "compression-webpack-plugin": "^4.0.0",
+        "css-loader": "3.6.0",
+        "eslint": "7.5.0",
+        "eslint-plugin-react": "7.20.3",
+        "html-loader": "1.1.0",
+        "html-webpack-plugin": "4.3.0",
+        "less-loader": "6.2.0",
+        "prettier": "2.0.5",
+        "style-loader": "1.2.1",
+        "webpack": "4.43.0",
+        "webpack-cli": "3.3.12",
+        "webpack-dev-server": "3.11.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/westpoint-io/react-boilerplate"
+    },
+    "keywords": [
+        "boilerplate",
+        "westpoint",
+        "react"
+    ],
+    "author": "westpoint-io",
+    "license": "MIT"
+}
