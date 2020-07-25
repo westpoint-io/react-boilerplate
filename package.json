@@ -4,7 +4,7 @@
     "description": "Westpoint react boilerplate",
     "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server --mode development --port 3300",
+        "start": "webpack-dev-server --mode development --open",
         "build": "webpack --mode production",
         "lint": "eslint --ext .js --ext .jsx src",
         "lint:fix": "eslint --fix --ext .js --ext .jsx src",

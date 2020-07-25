@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": ".",
+        "moduleResolution": "node",
+        "paths": {
+            "@atoms/*": ["./src/components/atoms/*"],
+            "@molecules/*": ["./src/components/molecules/*"],
+            "@organisms/*": ["./src/components/organisms/*"],
+            "@pages/*": ["./src/components/pages/*"],
+            "@templates/*": ["./src/components/templates/*"],
+            "@config/*": ["./src/config/*"]
+        }
+    },
+    "exclude": ["node_modules", "dist"]
+}

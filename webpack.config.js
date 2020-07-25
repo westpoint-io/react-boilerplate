@@ -22,7 +22,8 @@ module.exports = {
     },
     devServer: {
         hot: true,
-        historyApiFallback: true
+        historyApiFallback: true,
+        port: 3300
     },
     module: {
         rules: [
